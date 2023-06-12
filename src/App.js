@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import PolygonIDVerifier from "./PolygonIDVerifier";
 import VcGatedContent from "./VcGatedContent";
-import { Center, Card, Image, CardBody, Container, Text, Flex, Box } from "@chakra-ui/react";
+import { Center, Image, Container, Text, Flex, Box } from "@chakra-ui/react";
 
 function App() {
   const [genzProof, setGenzProof] = useState(false);
